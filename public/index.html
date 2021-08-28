@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<header>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</header>
+<body>
+<div>
+    <div class="mb-3"></div>
+        <video autoplay></video>
+        <canvas style=" visibility: hidden"></canvas>
+    </div>
+
+    <div class="mb-3 video-options">
+        <label class="form-label">Camera</label>
+        <select  class="form-control custom-select">
+            <option value="">Select camera</option>
+        </select>
+    </div>
+
+    <div class="controls">
+        <button id="play-button" class="btn btn-danger play" title="Play">Play</button><br/>
+        <label>Brightness</label>
+        <input id="red-buttom" type="range" min="-0.9" max="9.0" value="0" step=".01">
+    </div>
+</div>
+<script src="canvas.js"></script>
+<script src="script.js"></script>
+</body>
+</html
